@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.css";
 
 export const metadata: Metadata = {
   title: "Fitness training app",
