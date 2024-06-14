@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Fitness training app",
-  description: "a fitness training app",
+  description: "Monitor your exercise",
 };
 
 export default function RootLayout({
