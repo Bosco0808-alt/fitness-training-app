@@ -4,9 +4,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className={styles.center}>
-      <h1 className={styles.nowrap}>Fitness training app</h1>
-      <Link href={"/signup"} className="btn btn-primary">
+    <div>
+      <h1 className="m-2">Fitness training app</h1>
+      <p className="m-2">Monitor your exercise</p>
+      <Link href={"/signup"} className="btn btn-primary m-2">
         Get started
       </Link>
     </div>
